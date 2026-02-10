@@ -29,9 +29,9 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-gray-300 ${
         scrolled
-          ? "bg-background/80 backdrop-blur-lg shadow-sm border-b border-border"
+          ? "bg-background/80 backdrop-blur-lg shadow-sm"
           : "bg-transparent"
       }`}
     >
@@ -44,7 +44,7 @@ const Navbar = () => {
           }}
           className="font-display text-xl font-bold text-foreground tracking-tight"
         >
-          Saiju<span className="text-accent">.</span>
+          Saiju <span className="text-accent">M</span>
         </a>
 
         {/* Desktop */}

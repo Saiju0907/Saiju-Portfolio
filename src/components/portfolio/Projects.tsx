@@ -1,22 +1,36 @@
 import AnimatedSection from "./AnimatedSection";
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { ExternalLink, ShoppingCart, Shield } from "lucide-react";
 
 const projects = [
   {
-    title: "Online Furniture Application",
-    description:
-      "A full-featured eCommerce web application for browsing and purchasing furniture online, featuring product catalogs, cart functionality, and a seamless checkout experience.",
-    tech: ["HTML", "CSS", "PHP", "MySQL"],
-    icon: ShoppingCart,
+    title: "Project 1",
+    image: "/projects/project-1.jpg",
+    figmaUrl: "https://www.figma.com/design/project1",
   },
   {
-    title: "Ransomware in Cyber Security",
-    description:
-      "A defensive cybersecurity strategy leveraging RanGAN and Hash Conceal techniques to detect and mitigate ransomware threats, with an informative web-based dashboard.",
-    tech: ["HTML", "CSS", "Bootstrap"],
-    icon: Shield,
+    title: "Project 2",
+    image: "/projects/project-2.jpg",
+    figmaUrl: "https://www.figma.com/design/project2",
+  },
+  {
+    title: "Project 3",
+    image: "/projects/project-3.jpg",
+    figmaUrl: "https://www.figma.com/design/project3",
+  },
+  {
+    title: "Project 4",
+    image: "/projects/project-4.jpg",
+    figmaUrl: "https://www.figma.com/design/project4",
+  },
+  {
+    title: "Project 5",
+    image: "/projects/project-5.jpg",
+    figmaUrl: "https://www.figma.com/design/project5",
+  },
+  {
+    title: "Project 6",
+    image: "/projects/project-6.jpg",
+    figmaUrl: "https://www.figma.com/design/project6",
   },
 ];
 
@@ -26,30 +40,17 @@ const Projects = () => (
       <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-2">Projects</h2>
       <div className="w-16 h-1 bg-accent rounded-full mb-12" />
 
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((p, i) => (
           <AnimatedSection key={p.title} delay={i * 0.15}>
-            <Card className="group h-full border-border hover:border-accent/40 hover:shadow-lg transition-all duration-300 overflow-hidden">
-              <CardContent className="p-6 flex flex-col h-full">
-                <div className="flex items-start justify-between mb-4">
-                  <div className="p-3 rounded-xl bg-secondary group-hover:bg-accent/10 transition-colors">
-                    <p.icon className="h-6 w-6 text-muted-foreground group-hover:text-accent transition-colors" />
-                  </div>
-                  <ExternalLink className="h-4 w-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
-                </div>
-                <h3 className="text-lg font-semibold text-foreground mb-2">{p.title}</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed mb-6 flex-1">
-                  {p.description}
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {p.tech.map((t) => (
-                    <Badge key={t} variant="secondary" className="text-xs font-medium">
-                      {t}
-                    </Badge>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
+            <a href={p.figmaUrl} target="_blank" rel="noopener noreferrer">
+              <Card className="group h-full border-border hover:border-accent/40 hover:shadow-lg transition-all duration-300 overflow-hidden cursor-pointer">
+                <CardContent className="p-6 flex flex-col h-full">
+                  <img src={p.image} alt={p.title} className="w-full h-48 object-cover rounded-lg mb-4" />
+                  <h3 className="text-lg font-semibold text-foreground text-center">{p.title}</h3>
+                </CardContent>
+              </Card>
+            </a>
           </AnimatedSection>
         ))}
       </div>
