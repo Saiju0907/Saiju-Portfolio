@@ -9,37 +9,37 @@ const projects = [
   },
   {
     title: "AGRICULTURE APP",
-    image: "/projects/project-2.jpg",
+    image: "/Saiju-Portfolio/assets/Agriculture.jpeg",
     figmaUrl: "https://www.figma.com/proto/uxbziEfHUfq561WEAKCecH/Untitled?node-id=2002-2&t=Mbwpe5ntwOWYxoa2-1",
   },
   {
     title: "GPAY REDESIGN",
-    image: "/projects/project-3.jpg",
+    image: "/Saiju-Portfolio/assets/Gpay.jpg",
     figmaUrl: "https://www.figma.com/proto/QCAZkJDz1ASMfWBMFsaJgm/Untitled?node-id=1-2&t=tIFssjDgLrLeODxN-1",
   },
   {
     title: "SNAPCHAT REDESIGN",
-    image: "/projects/project-4.jpg",
+    image: "/Saiju-Portfolio/assets/Snapchat.png",
     figmaUrl: "https://www.figma.com/proto/Tv4zbsiNlHUvuYeklUzsV7/snapchat?page-id=0%3A1&node-id=1-3&viewport=54%2C412%2C0.17&t=R514hkrGMnmBjJ1v-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A3",
   },
   {
     title: "FOOD DELIVERY APP",
-    image: "/projects/project-5.jpg",
+    image: "/Saiju-Portfolio/assets/Food Delivery.png",
     figmaUrl: "https://www.figma.com/proto/QrgfTc9DDhJZvBqfImXacR/Untitled?page-id=0%3A1&node-id=1-14&viewport=538%2C233%2C0.22&t=JRIgC3YJ638yRTGD-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A14",
   },
   {
     title: "DONUT SITE",
-    image: "/Donut.jpg",
+    image: "/Saiju-Portfolio/assets/Donut.jpg",
     figmaUrl: "https://www.figma.com/proto/hZqUoKxFTaWCD5vY2JHqBs/Untitled?page-id=0%3A1&node-id=1-4&starting-point-node-id=1%3A4&t=yGI3K1H6YkvPR9Gg-1",
   },
   {
     title: "DRINKS SITE",
-    image: "/projects/project-7.jpg",
+    image: "/Saiju-Portfolio/assets/Drinks.jpeg",
     figmaUrl: "https://www.figma.com/proto/6zy1kRdRiHzOhSPn4zRyjI/Untitled?page-id=0%3A1&node-id=9-3&t=eXruXG5rSdd6lufJ-1",
   },
   {
     title: "BMW CAR SITE",
-    image: "/projects/project-8.jpg",
+    image: "/Saiju-Portfolio/assets/BMW.jpeg",
     figmaUrl: "https://www.figma.com/proto/tJx4U8CHTcRZeMsGdWac88/Untitled?page-id=0%3A1&node-id=16-2&starting-point-node-id=16%3A2&t=UoiZQ8hB0fbznTfN-1",
   },
 ];
