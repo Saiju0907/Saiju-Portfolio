@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const projects = [
   {
     title: "SPOTIFY REDESIGN",
-    image: "/Spotify.jpg",
+    image: "/Saiju-Portfolio/assets/Spotify.jpg",
     figmaUrl: "https://www.figma.com/proto/Yj6kGARyLYgvO9Rc9oQLHu/project-1?page-id=0%3A1&node-id=6-2&viewport=311%2C371%2C0.29&t=rThpceRzRzNL6CVW-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=6%3A2&show-proto-sidebar=1",
   },
   {
