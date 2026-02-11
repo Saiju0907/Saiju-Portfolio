@@ -3,7 +3,7 @@ import { ArrowDown, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => (
-  <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
     {/* Background pattern */}
     <div className="absolute inset-0 opacity-[0.03]" style={{
       backgroundImage: `radial-gradient(circle at 1px 1px, hsl(var(--foreground)) 1px, transparent 0)`,

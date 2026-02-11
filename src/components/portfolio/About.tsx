@@ -2,7 +2,7 @@ import AnimatedSection from "./AnimatedSection";
 import { MapPin, Languages } from "lucide-react";
 
 const About = () => (
-  <AnimatedSection id="about" className="py-24 bg-secondary/30">
+  <AnimatedSection id="about" className="py-24 bg-background">
     <div className="container mx-auto px-4 max-w-4xl">
       <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-2">About Me</h2>
       <div className="w-16 h-1 bg-accent rounded-full mb-8" />

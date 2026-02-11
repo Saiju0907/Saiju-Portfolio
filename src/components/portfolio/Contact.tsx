@@ -18,7 +18,7 @@ const Contact = () => {
   };
 
   return (
-    <AnimatedSection id="contact" className="py-24">
+    <AnimatedSection id="contact" className="py-24 bg-background">
       <div className="container mx-auto px-4 max-w-5xl">
         <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-2">Get In Touch</h2>
         <div className="w-16 h-1 bg-accent rounded-full mb-12" />
@@ -36,7 +36,7 @@ const Contact = () => {
                 </div>
                 <span className="text-sm">+91 98765 43210</span>
               </a>
-              <a href="mailto:saijum.design@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors group">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=saijum.design@gmail.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors group">
                 <div className="p-2 rounded-lg bg-secondary group-hover:bg-accent/10 transition-colors">
                   <Mail className="h-4 w-4 group-hover:text-accent transition-colors" />
                 </div>
@@ -97,7 +97,7 @@ const Contact = () => {
       {/* Footer */}
       <div className="container mx-auto px-4 mt-20 pt-8 border-t border-border">
         <p className="text-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Saiju M. All rights reserved.
+          © {new Date().getFullYear()} UI/UX Portfolio - Saiju. All rights reserved.
         </p>
       </div>
     </AnimatedSection>

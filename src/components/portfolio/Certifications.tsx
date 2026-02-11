@@ -12,7 +12,7 @@ const certs = [
 ];
 
 const Certifications = () => (
-  <AnimatedSection id="certifications" className="py-24 bg-secondary/30">
+  <AnimatedSection id="certifications" className="py-24 bg-background">
     <div className="container mx-auto px-4 max-w-5xl">
       <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-2">Certifications</h2>
       <div className="w-16 h-1 bg-accent rounded-full mb-12" />

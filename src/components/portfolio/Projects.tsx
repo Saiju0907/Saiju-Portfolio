@@ -3,34 +3,44 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const projects = [
   {
-    title: "Project 1",
-    image: "/projects/project-1.jpg",
-    figmaUrl: "https://www.figma.com/design/project1",
+    title: "SPOTIFY REDESIGN",
+    image: "/Spotify.jpg",
+    figmaUrl: "https://www.figma.com/proto/Yj6kGARyLYgvO9Rc9oQLHu/project-1?page-id=0%3A1&node-id=6-2&viewport=311%2C371%2C0.29&t=rThpceRzRzNL6CVW-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=6%3A2&show-proto-sidebar=1",
   },
   {
-    title: "Project 2",
+    title: "AGRICULTURE APP",
     image: "/projects/project-2.jpg",
-    figmaUrl: "https://www.figma.com/design/project2",
+    figmaUrl: "https://www.figma.com/proto/uxbziEfHUfq561WEAKCecH/Untitled?node-id=2002-2&t=Mbwpe5ntwOWYxoa2-1",
   },
   {
-    title: "Project 3",
+    title: "GPAY REDESIGN",
     image: "/projects/project-3.jpg",
-    figmaUrl: "https://www.figma.com/design/project3",
+    figmaUrl: "https://www.figma.com/proto/QCAZkJDz1ASMfWBMFsaJgm/Untitled?node-id=1-2&t=tIFssjDgLrLeODxN-1",
   },
   {
-    title: "Project 4",
+    title: "SNAPCHAT REDESIGN",
     image: "/projects/project-4.jpg",
-    figmaUrl: "https://www.figma.com/design/project4",
+    figmaUrl: "https://www.figma.com/proto/Tv4zbsiNlHUvuYeklUzsV7/snapchat?page-id=0%3A1&node-id=1-3&viewport=54%2C412%2C0.17&t=R514hkrGMnmBjJ1v-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A3",
   },
   {
-    title: "Project 5",
+    title: "FOOD DELIVERY APP",
     image: "/projects/project-5.jpg",
-    figmaUrl: "https://www.figma.com/design/project5",
+    figmaUrl: "https://www.figma.com/proto/QrgfTc9DDhJZvBqfImXacR/Untitled?page-id=0%3A1&node-id=1-14&viewport=538%2C233%2C0.22&t=JRIgC3YJ638yRTGD-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A14",
   },
   {
-    title: "Project 6",
-    image: "/projects/project-6.jpg",
-    figmaUrl: "https://www.figma.com/design/project6",
+    title: "DONUT SITE",
+    image: "/Donut.jpg",
+    figmaUrl: "https://www.figma.com/proto/hZqUoKxFTaWCD5vY2JHqBs/Untitled?page-id=0%3A1&node-id=1-4&starting-point-node-id=1%3A4&t=yGI3K1H6YkvPR9Gg-1",
+  },
+  {
+    title: "DRINKS SITE",
+    image: "/projects/project-7.jpg",
+    figmaUrl: "https://www.figma.com/proto/6zy1kRdRiHzOhSPn4zRyjI/Untitled?page-id=0%3A1&node-id=9-3&t=eXruXG5rSdd6lufJ-1",
+  },
+  {
+    title: "BMW CAR SITE",
+    image: "/projects/project-8.jpg",
+    figmaUrl: "https://www.figma.com/proto/tJx4U8CHTcRZeMsGdWac88/Untitled?page-id=0%3A1&node-id=16-2&starting-point-node-id=16%3A2&t=UoiZQ8hB0fbznTfN-1",
   },
 ];
 
@@ -40,7 +50,7 @@ const Projects = () => (
       <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-2">Projects</h2>
       <div className="w-16 h-1 bg-accent rounded-full mb-12" />
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
         {projects.map((p, i) => (
           <AnimatedSection key={p.title} delay={i * 0.15}>
             <a href={p.figmaUrl} target="_blank" rel="noopener noreferrer">

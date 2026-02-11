@@ -3,9 +3,8 @@ import { Badge } from "@/components/ui/badge";
 import { Code, Cpu, Globe, Video, Smartphone, Palette, Figma, Users, MessageCircle, FolderKanban, Lightbulb, Shuffle } from "lucide-react";
 
 const technicalSkills = [
-  { name: "Java", icon: Code },
+  { name: "HTML", icon: Code },
   { name: "C++", icon: Cpu },
-  { name: "HTML", icon: Globe },
   { name: "Video Editing", icon: Video },
   { name: "App Development", icon: Smartphone },
   { name: "Digital Art", icon: Palette },
@@ -21,7 +20,7 @@ const softSkills = [
 ];
 
 const Skills = () => (
-  <AnimatedSection id="skills" className="py-24">
+  <AnimatedSection id="skills" className="py-24 bg-background">
     <div className="container mx-auto px-4 max-w-5xl">
       <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-2">Skills</h2>
       <div className="w-16 h-1 bg-accent rounded-full mb-12" />

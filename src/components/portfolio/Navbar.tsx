@@ -44,7 +44,7 @@ const Navbar = () => {
           }}
           className="font-display text-xl font-bold text-foreground tracking-tight"
         >
-          Saiju <span className="text-accent">M</span>
+            Saiju <span className="text-accent">M</span>
         </a>
 
         {/* Desktop */}
